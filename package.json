@@ -1,0 +1,28 @@
+{
+  "name": "markpaulayers.com",
+  "version": "1.0.0",
+  "description": "Source for markpaulayers.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "task serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philoserf/markpaulayers.com.git"
+  },
+  "keywords": [
+    "hugo"
+  ],
+  "author": "Mark Ayers",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/philoserf/markpaulayers.com/issues"
+  },
+  "homepage": "https://github.com/philoserf/markpaulayers.com#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "4.0.3",
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.10",
+    "postcss-cli": "8.3.1"
+  }
+}
