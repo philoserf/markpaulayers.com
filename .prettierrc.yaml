@@ -1,0 +1,6 @@
+overrides:
+  - files:
+      - "*.html"
+      # - "*.md"
+    options:
+      parser: go-template
