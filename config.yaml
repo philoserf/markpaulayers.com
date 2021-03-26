@@ -1,0 +1,40 @@
+baseURL: https://markpaulayers.com/
+title: Sandbox
+languageCode: en-us
+
+params:
+  description: A sandbox for Hugo, HTML, and CSS development for philoserf.com
+  cf_token: 333fa2b552b84c7283c1cdf9e8f82398
+
+taxonomies:
+  category: topics
+  tag: terms
+
+build:
+  writeStats: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    simple: true
+  twitter:
+    simple: true
+    enableDNT: true
+  vimeo:
+    simple: true
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
+markup:
+  highlight:
+    style: github
