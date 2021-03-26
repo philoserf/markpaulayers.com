@@ -1,0 +1,32 @@
+{{ define "title" }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+  <main>
+    {{ .Content }}
+  </main>
+{{ end }}
+{{ define "footer" }}
+  <hr />
+  <nav>
+    <a href="/">Home</a>
+    <a href="/topics/">Index</a>
+  </nav>
+  <p>
+    <a property="dct:title" rel="cc:attributionURL" href="{{ .RelPermalink }}"
+      >{{ .Title }}</a
+    >; &copy;{{ .Date.Format "2006" }} by
+    <a
+      property="cc:attributionName"
+      rel="cc:attributionURL dct:creator"
+      href="/about/"
+      >Mark Ayers</a
+    >
+    is licensed
+    <a
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      href="http://creativecommons.org/licenses/by/4.0/"
+      >CC BY 4.0</a
+    >.
+  </p>
+{{ end }}

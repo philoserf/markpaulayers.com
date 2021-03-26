@@ -1,0 +1,41 @@
+baseURL: http://markpaulayers.com/
+title: markpaulayers.com
+languageCode: en-us
+
+params:
+  cf_token: 333fa2b552b84c7283c1cdf9e8f82398
+  # df210b1ebab34c97949b57a674606ef3 for philoserf.com
+
+taxonomies:
+  category: topics
+  tag: terms
+
+build:
+  writeStats: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    simple: true
+  twitter:
+    simple: true
+    enableDNT: true
+  vimeo:
+    simple: true
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
+markup:
+  highlight:
+    style: bw
+    tabWidth: 2

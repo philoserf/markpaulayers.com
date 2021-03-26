@@ -1,0 +1,31 @@
+{
+  "name": "markpaulayers.com",
+  "version": "1.0.0",
+  "description": "Source for markpaulayers.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philoserf/markpaulayers.com.git"
+  },
+  "homepage": "https://github.com/philoserf/markpaulayers.com#readme",
+  "bugs": {
+    "url": "https://github.com/philoserf/markpaulayers.com/issues"
+  },
+  "author": "Mark Ayers",
+  "license": "Unlicense",
+  "keywords": [
+    "hugo"
+  ],
+  "scripts": {
+    "test": "task serve"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "4.0.3",
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.10",
+    "postcss-cli": "8.3.1",
+    "prettier": "2.2.1",
+    "prettier-plugin-go-template": "0.0.10",
+    "prettier-plugin-pkg": "0.8.1",
+    "prettier-plugin-sh": "0.6.1"
+  }
+}
