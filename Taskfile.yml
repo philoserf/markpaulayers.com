@@ -1,0 +1,38 @@
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - task: lint
+
+  lint:
+    desc: all lint tasks
+    cmds:
+      - task: prettier
+      - task: markdownlint
+      - task: yamllint
+
+  prettier:
+    desc: prettier
+    cmds:
+      - prettier --list-different --ignore-unknown .
+
+  markdownlint:
+    desc: markdownlint
+    cmds:
+      - markdownlint-cli2 *.md **/*.md
+
+  yamllint:
+    desc: yamllint
+    cmds:
+      - yamllint .
+
+  serve:
+    desc: hugo serve
+    cmds:
+      - hugo server --disableFastRender --buildDrafts --buildFuture --navigateToChanged
+
+  prod:
+    desc: hugo serve like production
+    cmds:
+      - hugo server --disableFastRender --navigateToChanged
