@@ -1,0 +1,78 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "main" }}
+  <main>
+    {{ .Content }}
+    <section>
+      <h3 style="text-align: center;">Featured articles</h3>
+      <ul>
+        {{ $target := "featured" }}
+        {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "articles") }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .ReadingTime }}m reading
+            time<br />
+            {{ .Summary | truncate 150 }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+    <section>
+      <h3 style="text-align: center;">Pinned notes</h3>
+      <ul>
+        {{ $target := "pinned" }}
+        {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "notes") }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .ReadingTime }}m reading
+            time<br />
+            {{ .Summary | truncate 150 }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+    <section>
+      <h3 style="text-align: center;">Featured artwork</h3>
+      {{- $image := resources.Get "waterlogue.jpg" -}}
+      {{ $image := $image.Fill "600x600 smart" }}
+      <figure style="text-align: center;">
+        <img
+          style="max-width: 100%; width: auto; height: auto;"
+          src="{{ $image.RelPermalink }}"
+          width="{{ $image.Width }}"
+          height="{{ $image.Height }}"
+          alt="a heavily manipulated digital image"
+        />
+        <figcaption>
+          <p>Waterlogue &copy;2018 by Mark Ayers. All rights reserved.</p>
+        </figcaption>
+      </figure>
+    </section>
+  </main>
+{{ end }}
+{{ define "footer" }}
+  <hr />
+  <nav>
+    <a href="/topics/">Index</a>
+  </nav>
+  <p><a href="/">&hellip;</a></p>
+  <p>
+    <a property="dct:title" rel="cc:attributionURL" href="{{ .RelPermalink }}"
+      >{{ .Site.Title }}</a
+    >
+    is &copy;1983–{{ now.Format "2006" }} by
+    <a
+      property="cc:attributionName"
+      rel="cc:attributionURL dct:creator"
+      href="/about/"
+      >Mark Ayers</a
+    >
+    and is licensed to you
+    <a
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      href="http://creativecommons.org/licenses/by/4.0/"
+      >CC BY 4.0</a
+    >.<br />Exceptions have a seperate attribution and license statement.
+  </p>
+{{ end }}

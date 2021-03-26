@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {{ block "title" . }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A work in progress using Hugo without a theme"
+    />
+    {{ with resources.Get "base.css" | postCSS | resources.PostProcess }}
+      <style>
+        {{ .Content | safeCSS }}
+      </style>
+    {{ end }}
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "{{ $.Site.Params.cf_token }}"}'
+    ></script>
+    {{ hugo.Generator }}
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">The views expressed</a></h1>
+      <hr />
+      <nav>
+        <a href="/now/">Now</a> &vert;
+        <a href="/the-rules/">The rules</a> &vert;
+        <a href="/articles/">Articles</a> &vert;
+        <a href="/notes/">Notes</a> &vert;
+        <a href="/about/">About</a>
+      </nav>
+      <p><a href="/">&hellip;</a></p>
+    </header>
+    {{ block "main" . }}<main>{{ .Content }}</main>{{ end }}
+    <footer>
+      {{ block "footer" . }}{{ end }}
+    </footer>
+  </body>
+</html>

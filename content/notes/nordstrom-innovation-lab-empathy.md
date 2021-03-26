@@ -1,0 +1,12 @@
+---
+title: Nordstrom Innovation Lab, empathy
+date: 2014-04-20
+terms: [Nordstrom, Empathy]
+---
+
+- Open-ended Questioning
+- Why? Tell me more?
+- Deep Listening
+- Back-to-Back Listening
+- Emotional Response Profile
+- Emotional Check-in
