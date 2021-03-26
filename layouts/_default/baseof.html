@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {{ block "title" . }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A work in progress using Hugo without a theme"
+    />
+    {{ $css := resources.Get "base.css" }}
+    {{ $css = $css | resources.PostCSS }}
+    {{ if hugo.IsProduction }}
+      {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+    {{ end }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet" />
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/articles/">Articles</a>
+        <a href="/about/">About</a>
+      </nav>
+      <hr />
+    </header>
+    {{ block "main" . }}<main>{{ .Content }}</main>{{ end }}
+    <footer>
+      <hr />
+      <nav>
+        <a href="/">Home</a>
+        <a href="/topics/">Index</a>
+      </nav>
+      <p>
+        <a
+          property="dct:title"
+          rel="cc:attributionURL"
+          href="{{ .RelPermalink }}"
+          >{{ .Title }}</a
+        >; copyright {{ .Date.Format "2006" }} by
+        <a
+          property="cc:attributionName"
+          rel="cc:attributionURL dct:creator"
+          href="/about/"
+          >Mark Ayers</a
+        >
+        is licensed
+        <a
+          target="_blank"
+          rel="license noopener noreferrer"
+          style="display: inline-block"
+          href="http://creativecommons.org/licenses/by/4.0/"
+          >CC BY 4.0</a
+        ><img
+          alt="Creative Commons logo CC for license"
+          style="
+            height: 22px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+        /><img
+          alt="Creative Commons logo BY for license"
+          style="
+            height: 22px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+        />
+      </p>
+    </footer>
+  </body>
+</html>

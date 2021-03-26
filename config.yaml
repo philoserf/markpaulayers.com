@@ -1,0 +1,29 @@
+baseURL: http://markpaulayers.com/
+title: markpaulayers.com
+languageCode: en-us
+
+taxonomies:
+  category: topics
+  tag: tags
+
+build:
+  writeStats: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    simple: true
+  twitter:
+    simple: true
+  vimeo:
+    simple: true
+  youtube:
+    privacyEnhanced: true
+
+markup:
+  highlight:
+    style: bw
+    tabWidth: 2

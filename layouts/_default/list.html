@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+        {{ .Date.Format "2006-01-02" }} &vert; &thickapprox;{{ .ReadingTime }}m
+        &vert;
+        {{ .Summary|truncate 70 }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
