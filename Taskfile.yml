@@ -1,0 +1,46 @@
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - task: lint
+
+  lint:
+    desc: all lint tasks
+    cmds:
+      - task: prettier
+      - task: markdownlint
+      - task: yamllint
+
+  prettier:
+    desc: prettier
+    cmds:
+      - prettier --list-different --ignore-unknown .
+
+  markdownlint:
+    desc: markdownlint
+    cmds:
+      - markdownlint-cli2 *.md **/*.md content/**/*.md
+
+  yamllint:
+    desc: yamllint
+    cmds:
+      - yamllint .
+
+  ready:
+    desc: make ready for commit
+    cmds:
+      - prettier --write --list-different --ignore-unknown .
+      - task: lint
+      - rm -rf resources
+      - hugo --cleanDestinationDir --templateMetrics --templateMetricsHints --minify --print-mem
+
+  serve:
+    desc: hugo serve
+    cmds:
+      - hugo server --disableFastRender --buildDrafts --buildFuture --navigateToChanged --enableGitInfo
+
+  prod:
+    desc: hugo serve like production
+    cmds:
+      - hugo server --disableFastRender --navigateToChanged --environment production --enableGitInfo
