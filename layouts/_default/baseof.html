@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {{ block "title" . }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A work in progress using Hugo without a theme"
+    />
+    {{ $css := resources.Get "base.css" }}
+    {{ $css = $css | minify | fingerprint }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet" />
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "333fa2b552b84c7283c1cdf9e8f82398"}'
+    ></script>
+    {{ hugo.Generator }}
+  </head>
+  <body>
+    <p class="notice">
+      This is public test site for future layout and presentation at
+      <a href="https://philoserf.com/">https://philoserf.com/</a>.
+    </p>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/now/">Now</a>
+        <a href="/the-rules/">The rules</a>
+        <a href="/articles/">Articles</a>
+        <a href="/about/">About</a>
+      </nav>
+      <hr />
+    </header>
+    {{ block "main" . }}<main>{{ .Content }}</main>{{ end }}
+    {{ block "footer" . }}{{ end }}
+  </body>
+</html>
