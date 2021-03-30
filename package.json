@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/philoserf/markpaulayers.com#readme",
   "devDependencies": {
-    "postcss-cli": "^8.3.1",
-    "postcss-purgecss": "^2.0.3"
+    "postcss-cli": "8.3.1",
+    "postcss-purgecss": "2.0.3"
   }
 }
