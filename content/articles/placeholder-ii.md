@@ -10,7 +10,7 @@ terms:
 
 Adipisicing est cillum sint labore labore ea elit ad ex do irure elit aliqua nulla. Dolor nulla consectetur culpa cupidatat Lorem irure veniam. Veniam non nostrud anim consectetur anim quis esse deserunt consectetur pariatur voluptate veniam est. Nostrud voluptate do commodo occaecat incididunt Lorem. Eiusmod id excepteur proident aliquip et aliqua in deserunt nulla exercitation labore sint sunt labore. Ullamco consequat qui consectetur nulla duis dolore qui ex deserunt enim nostrud laborum dolore. Occaecat dolor irure veniam magna officia est laborum duis enim cillum elit enim labore et.
 
-```shell  {linenos=table,hl_lines=["1-4"]}
+```shell  {linenos=table,hl_lines=["1"]}
 #!/bin/bash
 
 set -o errexit
