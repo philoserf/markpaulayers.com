@@ -91,7 +91,7 @@ _The views expressed here are his own. They are not endorsed, approved, or revie
 
 ```plain
 MARK AYERS
-PO Box 680
+PO BOX 680
 ROCKFORD, MI 49341
 UNITED STATES OF AMERICA
 
