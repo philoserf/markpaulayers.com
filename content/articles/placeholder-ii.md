@@ -10,7 +10,25 @@ terms:
 
 Adipisicing est cillum sint labore labore ea elit ad ex do irure elit aliqua nulla. Dolor nulla consectetur culpa cupidatat Lorem irure veniam. Veniam non nostrud anim consectetur anim quis esse deserunt consectetur pariatur voluptate veniam est. Nostrud voluptate do commodo occaecat incididunt Lorem. Eiusmod id excepteur proident aliquip et aliqua in deserunt nulla exercitation labore sint sunt labore. Ullamco consequat qui consectetur nulla duis dolore qui ex deserunt enim nostrud laborum dolore. Occaecat dolor irure veniam magna officia est laborum duis enim cillum elit enim labore et.
 
-{{< gist philoserf 4b9e7d713a84a94cf12d8b056099298f >}}
+```shell  {linenos=table,hl_lines=["1-4"]}
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+error() {
+  printf "\terror: %s\n" "%@" >&2
+  exit 1
+}
+
+note() {
+  printf "\tnote: %s\n" "%@" >&2
+}
+
+DEBUG=${DEBUG:=0}
+[[ $DEBUG -eq 1 ]] && set -o xtrace
+```
 
 Ullamco esse nisi pariatur amet exercitation nulla laborum eu deserunt. Id ad voluptate ipsum velit ut minim eiusmod tempor Lorem. Pariatur anim duis exercitation ex laboris cillum id voluptate anim deserunt quis non amet. Eu in consequat aliquip do ex cillum aliquip ullamco. Ullamco occaecat consequat qui esse nostrud.
 
