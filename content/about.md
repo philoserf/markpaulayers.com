@@ -53,7 +53,9 @@ terms:
 
 ## Colophon
 
-<https://markpaulayers.com> is built by [Hugo][1], hosted on [GitHub Pages][2], & cached by [Cloudflare][3]. It is developed on an Apple MacBook using [vscode][4], [Hyper][5], & [zsh][6]. Content is written with a variety of editing tools. Text usually starts in [Drafts][7] on an iPhone or an iPad. Some ideas gain flesh and substance with mind-mapping in [MindNode][8]. Content that takes time to develop is tracked with [Things][9]. The layout and presentation are prepared with [HTML][10], [CSS][11], & avoids [JavaScript][12]. When content is nearly ready to publish, it is marked up in [Markdown][13]. The site is typeset with [OpenDyslexic][14].
+<https://markpaulayers.com> is built by [Hugo][1], hosted on [GitHub Pages][2], & cached by [Cloudflare][3]. It is developed on an Apple MacBook using [vscode][4], [Hyper][5], & [zsh][6]. Content is written with a variety of editing tools.
+
+Text usually starts in [Drafts][7] on an iPhone or an iPad. Some ideas gain flesh and substance with mind-mapping in [MindNode][8]. Content that takes time to develop is tracked with [Things][9]. The layout and presentation are prepared with [HTML][10], [CSS][11], & avoids [JavaScript][12]. When content is nearly ready to publish, it is marked up in [Markdown][13]. The site is typeset with [OpenDyslexic][14].
 
 ## The writer, editor, publisher
 
