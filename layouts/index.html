@@ -3,7 +3,7 @@
   <main>
     {{ .Content }}
     <section>
-      <h3 style="text-align: center;">Featured articles</h3>
+      <h3>Featured articles</h3>
       <ul>
         {{ $target := "featured" }}
         {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "articles") }}
@@ -17,7 +17,7 @@
       </ul>
     </section>
     <section>
-      <h3 style="text-align: center;">Pinned notes</h3>
+      <h3>Pinned notes</h3>
       <ul>
         {{ $target := "pinned" }}
         {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "notes") }}
@@ -31,10 +31,10 @@
       </ul>
     </section>
     <section>
-      <h3 style="text-align: center;">Featured artwork</h3>
+      <h3>Featured artwork</h3>
       {{- $image := resources.Get "waterlogue.jpg" -}}
       {{ $image := $image.Fill "600x600 smart" }}
-      <figure style="text-align: center;">
+      <figure>
         <img
           style="max-width: 100%; width: auto; height: auto;"
           src="{{ $image.RelPermalink }}"
@@ -43,7 +43,10 @@
           alt="a heavily manipulated digital image"
         />
         <figcaption>
-          <p>Waterlogue &copy;2018 by Mark Ayers. All rights reserved.</p>
+          <p>
+            Detail from <b><i>Waterlogue</i></b> &copy;2018 by Mark Ayers. All
+            rights reserved.
+          </p>
         </figcaption>
       </figure>
     </section>
