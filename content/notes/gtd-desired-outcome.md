@@ -1,7 +1,7 @@
 ---
 title: GTD desired outcome
 date: 2021-04-22
-terms: [GTD, Prompt]
+terms: [GTD, Template]
 ---
 
 Any result you want to achieve or experience you want to have.

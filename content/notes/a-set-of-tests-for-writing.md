@@ -1,7 +1,7 @@
 ---
 title: A set of tests for writing
 date: 2021-04-21
-terms: [Writing, Prompt]
+terms: [Writing, List]
 ---
 
 - the I believe ……. test

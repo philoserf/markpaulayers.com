@@ -1,7 +1,7 @@
 ---
 title: Canons of conduct
 date: 2021-04-22
-terms: [Thomas Jefferson, Character]
+terms: [Thomas Jefferson, Character, List]
 ---
 
 by Thomas Jefferson

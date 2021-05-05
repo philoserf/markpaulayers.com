@@ -4,7 +4,7 @@ date: 2006-04-22
 terms: [Cheese, Food, Cooking]
 ---
 
-_This article from 2006 by author Tami Parr of The Pacific Northwest Cheese Project answers many questions about the care and storage of cheese._
+_2006 by Tami Parr of The Pacific Northwest Cheese Project_
 
 Let’s start with a basic precept: cheese is high maintenance. From production to storage to consumption, cheese demands the full attention of the cheesemaker, the cheesemonger and the cheese enthusiast. Cheese is not a food specially developed to have a long stable shelf life; you have to approach cheese storage with more patience (and perhaps a sense of adventure) than you may be used to devoting to other food products.
 

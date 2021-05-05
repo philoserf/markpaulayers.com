@@ -1,7 +1,7 @@
 ---
 title: List of feelings
 date: 2021-04-20
-terms: [Emotions, Feelings, Writing]
+terms: [Emotions, Feelings, Writing, List]
 ---
 
 ### Feelings when needs are satisfied

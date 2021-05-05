@@ -1,7 +1,7 @@
 ---
-title: GTD horizion 4
+title: 40,000 feet
 date: 2021-04-02
-terms: [GTD, Vision]
+terms: [GTD, Vision, Template]
 ---
 
 ### Three to five-year vision

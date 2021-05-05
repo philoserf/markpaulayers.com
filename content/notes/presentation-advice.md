@@ -3,6 +3,7 @@ title: Presentation Advice
 date: 2006-04-20
 terms:
   [Presentation, Advice, Slides, Speech, Design, Visuals, Content, Delivery]
+draft: true
 ---
 
 ### Structuring Your Talk

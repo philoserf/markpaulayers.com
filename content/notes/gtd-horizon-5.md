@@ -1,7 +1,7 @@
 ---
-title: GTD horizon 5
+title: 50,000 feet
 date: 2021-04-01
-terms: [GTD, Purpose, Principles]
+terms: [GTD, Purpose, Principles, Template]
 ---
 
 ### Purpose and principles

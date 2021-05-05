@@ -11,9 +11,6 @@ terms: [Pinned, List, Blog]
 - [Subject: Mac](https://grahamrpugh.com/)
 - [Zen Habits](https://zenhabits.net/)
 
-<!-- - [ttt](yyy)
+<!--
 - [ttt](yyy)
-- [ttt](yyy)
-- [ttt](yyy)
-- [ttt](yyy)
-- [ttt](yyy) -->
+-->
