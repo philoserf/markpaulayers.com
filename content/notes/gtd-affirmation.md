@@ -1,5 +1,5 @@
 ---
-title: GTD affirmation
+title: Affirmation
 date: 2021-04-21
 terms: [GTD, Template]
 ---
