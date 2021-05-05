@@ -21,7 +21,7 @@ A set of rudimentary exercises intended to prepare students of rhetoric for the 
 13. [Thesis or Theme][13]
 14. [Defend / Attack a Law][14]
 
-reference: <http://rhetoric.byu.edu/Pedagogy/Progymnasmata/Progymnasmata.htm>
+reference: [Rhetoric at BYU](http://rhetoric.byu.edu/Pedagogy/Progymnasmata/Progymnasmata.htm)
 
 [1]: http://rhetoric.byu.edu/Pedagogy/Progymnasmata/Fable.htm
 [2]: http://rhetoric.byu.edu/Pedagogy/Progymnasmata/Narration.htm
