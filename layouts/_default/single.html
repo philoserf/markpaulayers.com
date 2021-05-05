@@ -1,8 +1,24 @@
 {{ define "title" }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
 {{ define "main" }}
   <main>
-    <header><h2>{{ .Title }}</h2></header>
+    <header>
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words</p>
+    </header>
     {{ .Content }}
+    <footer>
+      <p>
+        {{ if .PrevInSection }}
+          &leftarrow;
+          <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Name }}</a>
+        {{ end }}
+        &vert;
+        {{ if .NextInSection }}
+          <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Name }}</a>
+          &rightarrow;
+        {{ end }}
+      </p>
+    </footer>
   </main>
 {{ end }}
 {{ define "footer" }}
