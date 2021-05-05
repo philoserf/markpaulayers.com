@@ -1,5 +1,5 @@
 ---
-title: GTD ideal scene
+title: Ideal scene
 date: 2021-04-21
 terms: [GTD, Template]
 ---
