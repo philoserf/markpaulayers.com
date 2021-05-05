@@ -43,4 +43,4 @@ terms: [Apple, Diet, Food, List]
 - Sweetie™
 - Winesap
 
-more at <https://en.wikipedia.org/wiki/List_of_apple_cultivars>
+more at [Wikipedia](https://en.wikipedia.org/wiki/List_of_apple_cultivars)
