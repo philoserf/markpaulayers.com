@@ -8,13 +8,13 @@
     {{ .Content }}
     <footer>
       <p>
-        {{ if .PrevInSection }}
-          &leftarrow;
-          <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Name }}</a>
+        {{ if .NextInSection }}
+        &leftarrow;
+        <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Name }}</a>
         {{ end }}
         &vert;
-        {{ if .NextInSection }}
-          <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Name }}</a>
+        {{ if .PrevInSection }}
+          <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Name }}</a>
           &rightarrow;
         {{ end }}
       </p>

@@ -5,8 +5,7 @@
       {{ range .Pages }}
         <li>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
-          {{ .Date.Format "2006-01-02" }} &vert; {{ .ReadingTime }}m reading
-          time<br />
+          {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
           {{ .Summary | truncate 150 }}
         </li>
       {{ end }}
