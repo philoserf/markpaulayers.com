@@ -9,7 +9,7 @@
         {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "articles") }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
-            {{ .Date.Format "2006-01-02" }} &vert; {{ .Words }} words<br />
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
             {{ .Summary | truncate 150 }}
           </li>
         {{ end }}
@@ -22,7 +22,7 @@
         {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "notes") }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
-            {{ .Date.Format "2006-01-02" }} &vert; {{ .Words }} words<br />
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
             {{ .Summary | truncate 150 }}
           </li>
         {{ end }}
