@@ -1,6 +1,6 @@
 ---
 title: Now
-date: 2021-05-08
+date: 2021-05-07
 topics: [Meta]
 terms: [Gratitude, Focus, Dreams, List]
 ---
