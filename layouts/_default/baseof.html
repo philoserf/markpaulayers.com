@@ -10,7 +10,7 @@
       name="description"
       content="A work in progress using Hugo without a theme"
     />
-    {{ with resources.Get "base.css" | postCSS | resources.PostProcess }}
+    {{ with resources.Get "base.css" | postCSS | minify | resources.PostProcess }}
       <style>
         {{ .Content | safeCSS }}
       </style>
