@@ -6,7 +6,7 @@
         <li>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
           {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
-          {{ .Summary | truncate 150 }}
+          {{ .Summary }}
         </li>
       {{ end }}
     </ul>
