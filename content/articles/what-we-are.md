@@ -8,8 +8,7 @@ terms: [Featured]
 ```plain
 Chasing the sun westward
 At thirty five thousand feet
-We see the fingerprints
-Of our fellow man
+We see the fingerprints of our fellow man
 On the remotest mountain valley
 
 Between cloud and snow
