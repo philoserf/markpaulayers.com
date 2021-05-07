@@ -61,7 +61,7 @@ terms:
 
 **The views expressed** is built by [Hugo][1], hosted on [GitHub Pages][2], and cached by [Cloudflare][3]. It is developed on an Apple MacBook using [vscode][4], [hyper][5], and [zsh][6].
 
-Content is written with a variety of editing tools. Text usually starts in [Drafts][7] on an iPhone or an iPad, and sometimes, even an Apple watch. Some ideas gain flesh and substance with mind-mapping in [MindNode][8]. Content that takes time to develop is tracked with [Things][9].
+Content is written with a variety of editing tools. Text usually starts in [Drafts][7] on an iPhone or an iPad, and sometimes, even on an Apple watch. Some ideas gain flesh and substance with mind-mapping in [MindNode][8]. Content that takes time to develop is tracked with [Things][9].
 
 Layout and presentation are prepared with [HTML][10], [CSS][11], and avoids [JavaScript][12]. When content is nearly ready to publish, it is marked up in [Markdown][13].
 
