@@ -1,6 +1,6 @@
 ---
 title: Kanban
-date: 2021-05-07
+date: 2021-05-06
 terms: [pinned, kanban, work, visibility]
 ---
 
@@ -26,6 +26,8 @@ Cards are things Lanes are acivities
 
 Are we a team? What is our common goal?
 
-Work entering our process Work exiting our process
+- Work entering our process
+- Work exiting our process
 
-Look for queues, waiting Handoffs and not in our control
+- Look for queues, waiting
+- Handoffs and not in our control
