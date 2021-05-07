@@ -9,4 +9,5 @@ terms: [pinned, list, blog]
 - [Go Beyond](https://www.gobeyond.dev/)
 - [Scripting OSX](https://scriptingosx.com/)
 - [Subject: Mac](https://grahamrpugh.com/)
+- [Weaveworks](https://www.weave.works/blog/)
 - [Zen Habits](https://zenhabits.net/)
