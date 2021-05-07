@@ -10,7 +10,3 @@ terms: [Pinned, List, Blog]
 - [Scripting OSX](https://scriptingosx.com/)
 - [Subject: Mac](https://grahamrpugh.com/)
 - [Zen Habits](https://zenhabits.net/)
-
-<!--
-- [ttt](yyy)
--->

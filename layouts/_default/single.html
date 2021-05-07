@@ -9,8 +9,8 @@
     <footer>
       <p>
         {{ if .NextInSection }}
-        &leftarrow;
-        <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Name }}</a>
+          &leftarrow;
+          <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Name }}</a>
         {{ end }}
         &vert;
         {{ if .PrevInSection }}
