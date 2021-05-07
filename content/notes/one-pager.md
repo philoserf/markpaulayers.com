@@ -1,7 +1,7 @@
 ---
 title: One Pager
 date: 2021-04-20
-terms: [Communications, Template]
+terms: [communications, template]
 ---
 
 ### The Problem

@@ -1,7 +1,7 @@
 ---
 title: Business writing
 date: 2021-04-22
-terms: [Writing, List]
+terms: [writing, list]
 ---
 
 - Purpose: why the document is being written, the goals of the document

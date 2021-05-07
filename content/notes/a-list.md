@@ -1,7 +1,7 @@
 ---
 title: A list
 date: 2021-04-21
-terms: [List, Do, Be, Think, Have]
+terms: [list, do, be, think, have]
 ---
 
 - Sleep

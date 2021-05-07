@@ -1,7 +1,7 @@
 ---
 title: On the real terrain
 date: 2018-04-20
-topics: [Poetry]
+topics: [poetry]
 ---
 
 ```plain

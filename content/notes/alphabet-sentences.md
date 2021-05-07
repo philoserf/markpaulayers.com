@@ -1,7 +1,7 @@
 ---
 title: Alphabet sentences
 date: 2021-04-21
-terms: [List]
+terms: [list]
 ---
 
 A large fawn jumped quickly over white zinc boxes.

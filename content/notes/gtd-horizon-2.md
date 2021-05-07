@@ -1,7 +1,7 @@
 ---
 title: 20,000 feet
 date: 2021-04-04
-terms: [GTD, Focus, Responsibility, Template]
+terms: [gtd, focus, responsibility, template]
 ---
 
 ### Areas of focus and responsibility

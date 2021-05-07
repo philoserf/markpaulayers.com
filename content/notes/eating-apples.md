@@ -1,7 +1,7 @@
 ---
 title: Eating apples
 date: 2021-04-23
-terms: [Apple, Diet, Food, List]
+terms: [apple, diet, food, list]
 ---
 
 - Ambrosia

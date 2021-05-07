@@ -1,7 +1,7 @@
 ---
 title: Traveller SFRPG Versions
 date: 2021-04-20
-terms: [Traveller, List]
+terms: [traveller, list]
 ---
 
 - Traveller

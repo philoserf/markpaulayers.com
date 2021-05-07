@@ -1,8 +1,8 @@
 ---
 title: What we are
 date: 2018-04-20
-topics: [Poetry]
-terms: [Featured]
+topics: [poetry]
+terms: [featured]
 ---
 
 ```plain

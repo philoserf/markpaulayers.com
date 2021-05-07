@@ -1,7 +1,7 @@
 ---
 title: Rubyist
 date: 2012-04-20
-terms: [Ruby, Rubyist, Community, Poem]
+terms: [ruby, community, poem]
 ---
 
 ```ruby

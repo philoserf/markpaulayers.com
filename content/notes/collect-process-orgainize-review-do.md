@@ -1,7 +1,7 @@
 ---
 title: Collect, process, orgainize, review, and do
 date: 2021-04-22
-terms: [GTD, Routine, Process]
+terms: [gtd, routine, process]
 ---
 
 - Collect what we might have action about or attention on.

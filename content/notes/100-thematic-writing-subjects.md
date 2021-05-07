@@ -1,7 +1,7 @@
 ---
 title: 100 Thematic Writing Subjects
 date: 2021-04-21
-terms: [Writing, Prompt, List]
+terms: [writing, prompt, list]
 ---
 
 1. Introduction

@@ -2,7 +2,7 @@
 title: Now
 date: 2021-05-07
 topics: [Meta]
-terms: [Gratitude, Focus, Dreams, List]
+terms: [gratitude, focus, dreams, list]
 ---
 
 ### COVID-19 STATUS: Pfizer-BioNTech Vaccine Dose #1

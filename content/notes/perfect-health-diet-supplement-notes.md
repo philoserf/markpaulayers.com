@@ -1,7 +1,7 @@
 ---
 title: Perfect Health Diet supplement notes
 date: 2012-04-20
-terms: [Diet, Food, Supplements]
+terms: [diet, food, supplements]
 ---
 
 These “supplemental foods” we recommend eating on a regular schedule:

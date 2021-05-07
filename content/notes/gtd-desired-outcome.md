@@ -1,7 +1,7 @@
 ---
 title: Desired outcome
 date: 2021-04-22
-terms: [GTD, Template]
+terms: [gtd, template]
 ---
 
 Any result you want to achieve or experience you want to have.

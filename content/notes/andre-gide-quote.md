@@ -1,7 +1,7 @@
 ---
 title: André Gide Quote
 date: 2021-04-22
-terms: [Quote]
+terms: [quote]
 ---
 
 > Everything has been said already; but as no one listens, we must always begin again.

@@ -1,7 +1,7 @@
 ---
 title: Article ideas
 date: 2021-04-22
-terms: [List, Writing]
+terms: [list, writing]
 ---
 
 - a news bit with corporation person language removed

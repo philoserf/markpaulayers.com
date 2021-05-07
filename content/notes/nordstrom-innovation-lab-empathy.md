@@ -1,7 +1,7 @@
 ---
 title: Nordstrom Innovation Lab, empathy
 date: 2014-04-20
-terms: [Nordstrom, Empathy]
+terms: [nordstrom, empathy]
 ---
 
 - Open-ended Questioning

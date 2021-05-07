@@ -1,7 +1,7 @@
 ---
 title: Nordstrom Innovation Lab, methodologies
 date: 2014-04-20
-terms: [Nordstrom, Methodology]
+terms: [nordstrom, methodology]
 ---
 
 - Agile

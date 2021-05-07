@@ -1,7 +1,7 @@
 ---
 title: On Alerts
 date: 2015-04-20
-terms: [Monitoring, Observability]
+terms: [monitoring, observability]
 ---
 
 source: [from the Thoughtworks radar](https://www.thoughtworks.com/radar/techniques/monitoring-of-invariants)

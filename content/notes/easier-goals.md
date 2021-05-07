@@ -1,7 +1,7 @@
 ---
 title: Easier Goals
 date: 2021-05-06
-terms: [Goal]
+terms: [goal]
 ---
 
 Envision: Spend time each and every day envisioning your life as it will look after you have achieved your goal.

@@ -1,7 +1,7 @@
 ---
 title: Intuition
 date: 2021-04-21
-terms: [GTD, Template]
+terms: [gtd, template]
 ---
 
 Hunches about where things are going and optimal approaches to it.

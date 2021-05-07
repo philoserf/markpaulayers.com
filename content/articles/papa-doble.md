@@ -1,14 +1,14 @@
 ---
 title: Papa doble
 date: 2021-03-15
-topics: [Aside]
+topics: [aside]
 terms:
   [
-    Hemingway,
-    Hemingway Daquari,
-    Hemingway Special,
-    Death in the Afternoon,
-    Papa Doble,
+    hemingway,
+    hemingway daquari,
+    hemingway special,
+    death in the afternoon,
+    papa doble,
   ]
 ---
 

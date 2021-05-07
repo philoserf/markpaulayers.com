@@ -1,7 +1,7 @@
 ---
 title: 30,000 feet
 date: 2021-04-03
-terms: [GTD, Goal, Objective, Template]
+terms: [gtd, goal, objective, template]
 ---
 
 ### One- to two-year goals and objectives

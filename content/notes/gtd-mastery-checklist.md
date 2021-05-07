@@ -1,7 +1,7 @@
 ---
 title: GTD mastery checklist
 date: 2021-04-06
-terms: [GTD, Checklist]
+terms: [gtd, checklist]
 ---
 
 ### The Basics

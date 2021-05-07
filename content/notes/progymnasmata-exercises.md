@@ -1,7 +1,7 @@
 ---
 title: Progymnasmata exercises
 date: 2016-07-04
-terms: [Rhetoric, Prompt, Writing, Speaking]
+terms: [rhetoric, writing, speaking]
 ---
 
 A set of rudimentary exercises intended to prepare students of rhetoric for the creation and performance of complete practice orations (gymnasmata or declamations). A crucial component of classical and renaissance rhetorical pedagogy. Many progymnasmata exercises correlate directly with the parts of a classical oration.

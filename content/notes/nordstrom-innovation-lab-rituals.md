@@ -1,7 +1,7 @@
 ---
 title: Nordstrom Innovation Lab, rituals
 date: 2014-04-20
-terms: [Nordstrom, Ritual]
+terms: [nordstrom, ritual]
 ---
 
 - Daily Standup (Big and Little)

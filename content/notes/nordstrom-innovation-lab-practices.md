@@ -1,7 +1,7 @@
 ---
 title: Nordstrom Innovation Lab, practices
 date: 2014-04-20
-terms: [Nordstrom, Practices]
+terms: [nordstrom, practices]
 ---
 
 - Kanban

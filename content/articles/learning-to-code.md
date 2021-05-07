@@ -1,8 +1,8 @@
 ---
 title: Learning to code
 date: 2017-12-22
-topics: [Reflection]
-terms: [Programming, Language, Learning, Fluency]
+topics: [reflection]
+terms: [programming, language, learning, fluency]
 ---
 
 Learning to program is like learning to read and write any foreign language. Lots of time will be spent looking at symbols that make little sense and hearing people speak about the language in terms that are, while familiar, carrying less meaning than perhaps they should. Lots of time will be spent reading references without context, then looking at language in context, then back and forth again.

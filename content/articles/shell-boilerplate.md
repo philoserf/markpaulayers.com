@@ -1,8 +1,8 @@
 ---
 title: Shell boilerplate
 date: 2021-03-04
-topics: [Technology]
-terms: [Shell, Hashbang, Template, Boilerplate, Example]
+topics: [technology]
+terms: [shell, hashbang, template, boilerplate, example]
 ---
 
 ```shell

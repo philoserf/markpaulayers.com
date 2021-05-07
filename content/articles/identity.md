@@ -1,20 +1,20 @@
 ---
 title: Identity
 date: 2018-09-11
-topics: [Aside]
+topics: [aside]
 terms:
   [
-    Identity,
-    Self,
-    Politics,
-    Change,
-    Republican,
-    Democrat,
+    identity,
+    self,
+    politics,
+    change,
+    republican,
+    democrat,
     liberal,
     conservative,
-    Empowered,
-    Unintended consequences,
-    Rome,
+    empowered,
+    unintended consequences,
+    rome,
   ]
 ---
 

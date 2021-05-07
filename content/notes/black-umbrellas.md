@@ -1,7 +1,7 @@
 ---
 title: Black Umbrellas
 date: 2021-04-22
-terms: [Poem]
+terms: [poem]
 ---
 
 ```plain

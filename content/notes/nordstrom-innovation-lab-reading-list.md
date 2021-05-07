@@ -1,7 +1,7 @@
 ---
 title: Nordstrom Innovation Lab, reading list
 date: 2014-04-20
-terms: [Nordstrom, Reading, Book]
+terms: [nordstrom, reading, book]
 ---
 
 - Lean Startup

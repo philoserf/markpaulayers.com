@@ -1,7 +1,7 @@
 ---
 title: The rules
 date: 2021-04-01
-topics: [Technology]
+topics: [technology]
 terms:
   [
     Source code,

@@ -1,7 +1,7 @@
 ---
 title: Blogs
 date: 2021-05-07
-terms: [Pinned, List, Blog]
+terms: [pinned, list, blog]
 ---
 
 - [Bullet Journalist](https://bulletjournal.com/blogs/bulletjournalist)

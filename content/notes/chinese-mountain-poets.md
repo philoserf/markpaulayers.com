@@ -1,7 +1,7 @@
 ---
 title: Chinese mountain poets
 date: 2021-04-22
-terms: [Poem, Chinese]
+terms: [poem, chinese]
 ---
 
 Chinese Mountain Poets

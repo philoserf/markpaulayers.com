@@ -1,7 +1,7 @@
 ---
 title: Privately owned public spaces in Seattle
 date: 2010-04-20
-terms: [Seattle, Washington, Public, Private, Ownership, Community, List]
+terms: [seattle, washington, public, private, ownership, community, list]
 ---
 
 - 99 Union Street, Union St. plaza and stairs to Western Avenue

@@ -1,7 +1,7 @@
 ---
 title: Affirmation
 date: 2021-04-21
-terms: [GTD, Template]
+terms: [gtd, template]
 ---
 
 A written self-talk statement

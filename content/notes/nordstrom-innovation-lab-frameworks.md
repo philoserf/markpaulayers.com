@@ -1,7 +1,7 @@
 ---
 title: Nordstrom Innovation Lab, frameworks
 date: 2014-04-20
-terms: [Nordstrom, Framework]
+terms: [nordstrom, framework]
 ---
 
 - Business Model Canvas

@@ -1,7 +1,7 @@
 ---
 title: Needs
 date: 2021-04-20
-terms: [Needs, Human, Emotion, List]
+terms: [needs, human, emotion, list]
 ---
 
 - Atmosphere: especially having the correct kind of lighting

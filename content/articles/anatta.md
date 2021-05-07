@@ -1,18 +1,18 @@
 ---
 title: Anattā
 date: 2020-01-25
-topics: [Reflection]
+topics: [reflection]
 terms:
   [
-    Buddhist,
-    Self,
-    Attention,
-    Philosophy,
-    Thought,
-    Truth,
-    Conteplation,
-    Meditation,
-    Featured,
+    buddhist,
+    self,
+    attention,
+    philosophy,
+    thought,
+    truth,
+    conteplation,
+    meditation,
+    featured,
   ]
 ---
 

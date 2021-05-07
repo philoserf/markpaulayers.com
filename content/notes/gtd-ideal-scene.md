@@ -1,7 +1,7 @@
 ---
 title: Ideal scene
 date: 2021-04-21
-terms: [GTD, Template]
+terms: [gtd, template]
 ---
 
 A detailed description of a desired future. Ideal scenes can take on many forms – mocked-up articles in the press describing how extraordinarily successful your enterprise has been, collages with pictures and headlines that express what your life may look and feel like if you could have it like you want it, etc. It can simply be descriptive paragraphs written in an affirmational style. Wonderful to create and re-read and re-imagine on some regular basis.

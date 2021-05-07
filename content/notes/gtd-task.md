@@ -1,7 +1,7 @@
 ---
 title: GTD task
 date: 2021-04-21
-terms: [GTD, Definition, Task]
+terms: [gtd, definition, task]
 ---
 
 Tasks are

@@ -1,7 +1,7 @@
 ---
 title: Microtasks
 date: 2007-07-17
-terms: [Writing, Prompt, Checklist]
+terms: [writing, prompt, checklist]
 ---
 
 source: [Steve Pavlina](https://stevepavlina.com/blog/2007/07/microtasks/)
