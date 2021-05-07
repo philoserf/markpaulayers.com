@@ -4,11 +4,7 @@ date: 2021-04-22
 terms: [poem, chinese]
 ---
 
-Chinese Mountain Poets
-
-600s
-
-by Li Bao
+### by Li Bao
 
 ```plain
 You ask me why I dwell in the green mountain;
@@ -17,7 +13,7 @@ As the peach-blossom flows down stream and is gone into the unknown,
 I have a world apart that is not among men.
 ```
 
-by Du Mu
+### by Du Mu
 
 ```plain
 After I climb the chill mountain's steep stone paths,
@@ -26,7 +22,7 @@ I stop my carriage, and sit to admire the maple-grove at nightfall,
 Whose frozen leaves are redder than the flowers of early Spring.
 ```
 
-by Wand Wei
+### by Wand Wei
 
 ```plain
 Deserted mountains - not a man is seen,
@@ -35,7 +31,7 @@ The sunbeam, entering the deep woods,
 Reflects again, on the green moss.
 ```
 
-by Su Shi
+### by Su Shi
 
 ```plain
 To what can our life on earth be likened?
