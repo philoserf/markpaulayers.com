@@ -3,7 +3,6 @@ title: Places
 date: 2021-05-03
 terms:
   [
-    Pinned,
     Albany,
     US Army,
     Atlanta,

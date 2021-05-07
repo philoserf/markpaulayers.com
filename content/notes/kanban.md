@@ -1,7 +1,7 @@
 ---
 title: Kanban
 date: 2021-05-07
-terms: [Kanban, Work, Visibility]
+terms: [Pinned, Kanban, Work, Visibility]
 ---
 
 ### Fundamentals
