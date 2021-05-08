@@ -3,6 +3,18 @@
   <main>
     {{ .Content }}
     <section>
+      <h3>Most recent article</h3>
+      <ul>
+        {{ range first 1 (where .Site.RegularPages "Section" "articles") }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+            {{ .Summary | truncate 80 }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+    <section>
       <h3>Featured articles</h3>
       <ul>
         {{ range where .Site.Pages "Section" "articles" }}
@@ -13,6 +25,18 @@
               {{ .Summary | truncate 80 }}
             </li>
           {{ end }}
+        {{ end }}
+      </ul>
+    </section>
+    <section>
+      <h3>Most recently updated note</h3>
+      <ul>
+        {{ range first 1 (where .Site.RegularPages "Section" "notes") }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+            {{ .Summary | truncate 80 }}
+          </li>
         {{ end }}
       </ul>
     </section>
@@ -29,26 +53,6 @@
           {{ end }}
         {{ end }}
       </ul>
-    </section>
-    <section>
-      <h3>Featured artwork</h3>
-      {{- $image := resources.Get "waterlogue.jpg" -}}
-      {{ $image := $image.Fill "600x600 smart" }}
-      <figure>
-        <img
-          style="max-width: 100%; width: auto; height: auto;"
-          src="{{ $image.RelPermalink }}"
-          width="{{ $image.Width }}"
-          height="{{ $image.Height }}"
-          alt="a heavily manipulated digital image"
-        />
-        <figcaption>
-          <p>
-            Detail from <b><i>Waterlogue</i></b> &copy;2018 by Mark Ayers. All
-            rights reserved.
-          </p>
-        </figcaption>
-      </figure>
     </section>
   </main>
 {{ end }}
