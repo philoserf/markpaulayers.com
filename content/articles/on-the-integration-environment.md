@@ -2,7 +2,8 @@
 title: On the integration environment
 date: 2016-04-30
 topics: [technology]
-terms: [testing, dependence, interdependence, development, featured]
+featured: true
+terms: [testing, dependence, interdependence, development]
 ---
 
 An integration environment is what a team provides to others so that others can integrate with the services provided by that team. The collection of all teams’ integration environments become, together, the notional “Integration Environment”.

@@ -1,7 +1,8 @@
 ---
 title: Kanban
 date: 2021-05-06
-terms: [pinned, kanban, work, visibility]
+pinned: true
+terms: [kanban, work, visibility]
 ---
 
 ### Fundamentals

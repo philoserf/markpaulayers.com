@@ -2,6 +2,7 @@
 title: Anattā
 date: 2020-01-25
 topics: [reflection]
+featured: true
 terms:
   [
     buddhist,
@@ -12,7 +13,6 @@ terms:
     truth,
     conteplation,
     meditation,
-    featured,
   ]
 ---
 

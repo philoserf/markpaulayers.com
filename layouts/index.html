@@ -5,26 +5,28 @@
     <section>
       <h3>Featured articles</h3>
       <ul>
-        {{ $target := "featured" }}
-        {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "articles") }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
-            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
-            {{ .Summary | truncate 80 }}
-          </li>
+        {{ range where .Site.Pages "Section" "articles" }}
+          {{ if isset .Params "featured" }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+              {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+              {{ .Summary | truncate 80 }}
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
     </section>
     <section>
       <h3>Pinned notes</h3>
       <ul>
-        {{ $target := "pinned" }}
-        {{ range first 5 (where (index .Site.Taxonomies.terms $target).Pages "Section" "notes") }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
-            {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
-            {{ .Summary | truncate 80 }}
-          </li>
+        {{ range where .Site.Pages "Section" "notes" }}
+          {{ if isset .Params "pinned" }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
+              {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
+              {{ .Summary | truncate 80 }}
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
     </section>

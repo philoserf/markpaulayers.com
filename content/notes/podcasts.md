@@ -1,7 +1,8 @@
 ---
 title: Podcasts
 date: 2021-05-07
-terms: [pinned, list]
+pinned: true
+terms: [list]
 ---
 
 - [99% Invisible](https://99percentinvisible.org/)

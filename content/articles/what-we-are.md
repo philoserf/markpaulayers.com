@@ -2,7 +2,8 @@
 title: What we are
 date: 2018-04-20
 topics: [poetry]
-terms: [featured]
+featured: true
+terms: [poem]
 ---
 
 ```plain
