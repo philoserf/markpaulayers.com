@@ -1,7 +1,6 @@
 {{ define "main" }}
   <main>
     <h2>{{ .Title }}</h2>
-    <ul>
       {{ range .Pages }}
         <li>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
@@ -9,7 +8,6 @@
           {{ .Summary }}
         </li>
       {{ end }}
-    </ul>
   </main>
 {{ end }}
 {{ define "footer" }}
