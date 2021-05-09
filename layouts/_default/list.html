@@ -2,11 +2,11 @@
   <main>
     <h2>{{ .Title }}</h2>
       {{ range .Pages }}
-        <li>
+        <p>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
           {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
           {{ .Summary }}
-        </li>
+        </p>
       {{ end }}
   </main>
 {{ end }}
