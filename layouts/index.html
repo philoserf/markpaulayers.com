@@ -5,44 +5,44 @@
     <section>
       <h3>Most recent article</h3>
         {{ range first 1 (where .Site.RegularPages "Section" "articles") }}
-          <li>
+          <p>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
             {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
             {{ .Summary | truncate 80 }}
-          </li>
+          </p>
         {{ end }}
     </section>
     <section>
       <h3>Featured articles</h3>
         {{ range where .Site.Pages "Section" "articles" }}
           {{ if isset .Params "featured" }}
-            <li>
+            <p>
               <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
               {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
               {{ .Summary | truncate 80 }}
-            </li>
+            </p>
           {{ end }}
         {{ end }}
     </section>
     <section>
       <h3>Most recently updated note</h3>
         {{ range first 1 (where .Site.RegularPages "Section" "notes") }}
-          <li>
+          <p>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
             {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
             {{ .Summary | truncate 80 }}
-          </li>
+          </p>
         {{ end }}
     </section>
     <section>
       <h3>Pinned notes</h3>
         {{ range where .Site.Pages "Section" "notes" }}
           {{ if isset .Params "pinned" }}
-            <li>
+            <p>
               <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
               {{ .Date.Format "2006-01-02" }} &vert; {{ .WordCount }} words<br />
               {{ .Summary | truncate 80 }}
-            </li>
+            </p>
           {{ end }}
         {{ end }}
     </section>
