@@ -1,7 +1,7 @@
 ---
 title: Learning to code
 date: 2017-12-22
-topics: [reflection]
+topics: [technology]
 terms: [programming, language, learning, fluency]
 ---
 
