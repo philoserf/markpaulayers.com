@@ -4,7 +4,6 @@
     {{ .Content }}
     <section>
       <h3>Most recent article</h3>
-      <ul>
         {{ range first 1 (where .Site.RegularPages "Section" "articles") }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
@@ -12,11 +11,9 @@
             {{ .Summary | truncate 80 }}
           </li>
         {{ end }}
-      </ul>
     </section>
     <section>
       <h3>Featured articles</h3>
-      <ul>
         {{ range where .Site.Pages "Section" "articles" }}
           {{ if isset .Params "featured" }}
             <li>
@@ -26,11 +23,9 @@
             </li>
           {{ end }}
         {{ end }}
-      </ul>
     </section>
     <section>
       <h3>Most recently updated note</h3>
-      <ul>
         {{ range first 1 (where .Site.RegularPages "Section" "notes") }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a> &vert;
@@ -38,11 +33,9 @@
             {{ .Summary | truncate 80 }}
           </li>
         {{ end }}
-      </ul>
     </section>
     <section>
       <h3>Pinned notes</h3>
-      <ul>
         {{ range where .Site.Pages "Section" "notes" }}
           {{ if isset .Params "pinned" }}
             <li>
@@ -52,7 +45,6 @@
             </li>
           {{ end }}
         {{ end }}
-      </ul>
     </section>
   </main>
 {{ end }}
