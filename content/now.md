@@ -23,13 +23,13 @@ I am …
 
 … reading
 
-- _[The Hungry Brain][2]_ by Stephan Guyenet; Flatiron Books, 2017
-- _[Fortuna][3]_ by Kristyn Merbeth; Hachette Book Group, 2019
+- _[The Hungry Brain][1]_ by Stephan Guyenet; Flatiron Books, 2017
+- _[Fortuna][2]_ by Kristyn Merbeth; Hachette Book Group, 2019
 
 This is a [Now][99] page. You should have one too.
 
 <!-- ref -->
 
-[2]: https://us.macmillan.com/books/9781250081193
-[3]: https://www.hachettebookgroup.com/titles/kristyn-merbeth/fortuna/9780316453998/
+[1]: https://us.macmillan.com/books/9781250081193
+[2]: https://www.hachettebookgroup.com/titles/kristyn-merbeth/fortuna/9780316453998/
 [99]: https://nownownow.com/about
