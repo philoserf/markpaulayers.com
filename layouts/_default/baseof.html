@@ -6,7 +6,10 @@
     <link rel="canonical" href="{{ .Permalink }}" />
     <!-- titles and descriptions -->
     <title>
-      {{ block "title" . }}{{ .Title }} &vert; {{ .Site.Title }}{{ end }}
+      {{ block "title" . }}
+        {{ .Title }} &vert;
+        {{ .Site.Title }}
+      {{ end }}
     </title>
     <meta name="description" content="{{ $.Description | truncate 150 }}" />
     <!-- facebook -->
@@ -50,9 +53,9 @@
       </style>
     {{ end }}
     <!-- feeds -->
-    {{ range .AlternativeOutputFormats -}}
+    {{ range .AlternativeOutputFormats }}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{ end }}
     <!-- intelligence -->
     <script
       defer
@@ -66,8 +69,7 @@
       <h1><a href="/">{{ .Site.Title }}</a></h1>
       <hr />
       <nav>
-        <a href="/now/">Now</a> &vert;
-        <a href="/page/">Page</a> &vert;
+        <a href="/now/">Now</a> &vert; <a href="/page/">Page</a> &vert;
         <a href="/articles/">Articles</a> &vert;
         <a href="/notes/">Notes</a> &vert;
         <a href="/about/">About</a>
@@ -75,8 +77,6 @@
       <p><a href="/">&hellip;</a></p>
     </header>
     {{ block "main" . }}<main>{{ .Content }}</main>{{ end }}
-    <footer>
-      {{ block "footer" . }}{{ end }}
-    </footer>
+    <footer>{{ block "footer" . }}{{ end }}</footer>
   </body>
 </html>
